@@ -1,0 +1,54 @@
+body{
+  background-image: url(fundoranking.png); width: fit-content; height: fit-content;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2; width 100%:;height:auto;
+}
+
+.rank {
+  width: 30px;
+  text-align: center;
+}
+
+.medal-image {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.gold-medal {
+  background-color: gold;
+}
+
+.silver-medal {
+  background-color: silver;
+}
+
+.bronze-medal {
+  background-color: #cd7f32;
+}
+
+@media only screen and (max-width: 600px) {
+  table {
+    font-size: 12px;
+  }
+  
+  th, td {
+    padding: 4px;
+  }
+  
+  .rank {
+    display: none;
+  }
+}
